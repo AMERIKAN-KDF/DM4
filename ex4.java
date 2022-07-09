@@ -21,6 +21,8 @@ public class DM4 {
 			}
 		}
 		System.out.println("Heads: "+cntH+", Tails: "+cntT);
+		if (cntH > cntT) System.out.println("You won!");
+		else System.out.println("You lost...");
 	}
 
 }
